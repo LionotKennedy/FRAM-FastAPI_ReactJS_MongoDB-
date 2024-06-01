@@ -1,0 +1,34 @@
+.validerCompte{
+    /* background-image: linear-gradient(43deg, #20222a 0%, #442e59 46%, #373843 100%) !important; */
+    background-image: linear-gradient(43deg, #20222a 0%, #442e59 46%, #373843 100%) !important;
+    /* background: #6ca398 !important; */
+}
+.annulerCompte{
+    background-color: #666 !important;
+}
+.titleContent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.colorTitle{
+    color: #442e59 !important;
+}
+.closeContent{
+    transition-duration: 0.5s !important;
+}
+.closeContent:hover{
+    transition-duration: 0.5s !important;
+    background-color: rgb(162, 161, 161) !important;
+    color: red !important;
+}
+
+.closeContentM{
+    transition: 0.5s !important;
+    border-radius: 50%;
+}
+.closeContentM:hover{
+    transition: 0.5s !important;
+    background-color: rgb(162, 161, 161) !important;
+    color: red !important;
+}

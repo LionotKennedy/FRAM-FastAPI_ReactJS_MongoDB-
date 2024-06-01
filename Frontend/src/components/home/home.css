@@ -1,0 +1,11 @@
+/* .tsy {
+    display: block; 
+    height: 357px;
+    width: 714px;
+  } */
+
+  
+  .AppContainer {
+    width: 100%; /* Définissez la hauteur souhaitée ici */
+    height: 300px; /* Définissez la hauteur souhaitée ici */
+  }

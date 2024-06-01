@@ -1,0 +1,16 @@
+ axios.post("http://localhost:4321/login", {Email, Password })
+                .then(res => {
+                    // console.log(res);
+                    // toast.success("Inscription réussie !");
+                    // navigate('/admin');
+                    if(res.data.Status === "success") {
+                        toast.success("Inscription réussie !");
+                        navigate('/admin');
+                    } else {
+                        toast.error("Adresse electronique ou mot de passe incorrecte");
+                        console.log(res.data);
+                    }
+                }).catch(err => {
+                    console.log(err);
+                    toast.error("Erreur lors de l'inscription.");
+                });
